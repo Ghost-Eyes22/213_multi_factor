@@ -5,8 +5,8 @@ import multifactorcli as mfc
 my_auth = mfc.MultiFactorAuth()
 
 # set the users authentication information
-question = "What is your favorite color?"
-answer = "purple"
+question = "whats your favorite one piece character?"
+answer = "Law"
 my_auth.set_multiFactorAuthentication(question, answer)
 
 my_auth.run()
