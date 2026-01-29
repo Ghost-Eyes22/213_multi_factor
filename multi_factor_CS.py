@@ -9,7 +9,8 @@ question = "whats your favorite one piece character?"
 answer = "Law"
 my_auth.set_multiFactorAuthentication(question, answer)
 
-username= ""
-password = ""
+username= "vlorp"
+password = "baananana sauce"
+my_auth.set_authentication(username, password)
 
 my_auth.run()
